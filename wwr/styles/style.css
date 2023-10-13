@@ -7,14 +7,24 @@ Fonts are separated by a & */
   max-width: 1600px;
   margin: 0 auto;
 }
+
 a {
   text-align: center;
 }
+.icon  {
+  padding-top: 10px;
+}
 h1{
   text-align: center;
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 2em;
 }
 h2{
   text-align: center;
+  margin: 0;
 }
 .button-box{
   text-align: center;
@@ -29,17 +39,36 @@ main{
 }
 body {
   background-color:rgb(138, 212, 255);
-  color:rgb(0, 0, 0)
+  color:rgb(0, 0, 0);
+  font-family: 'Lato', 'IM Fell French Canon';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
+p { 
+  font-weight: 400;
+}
+
 header {
   background-color:rgba(189, 253, 237, 0.952);
+  text-decoration: none;
 }
 nav a:hover {
-  
+  padding: 35px;
   background-color:rgb(230, 169, 248);
 }
 .book, .join{
+  padding: 15px 30px;
   background-color:rgb(255, 255, 255);
+  margin-top: 50px;
+  width: 80px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
 }
 .book:hover, .join:hover{
   background-color:aqua;
@@ -49,18 +78,24 @@ nav a:hover {
 }
 .msg{
   background-color:rgba(94, 255, 236, 0.879);
+  line-height: 1.5em;
 }
+.icon  {
+  padding-top: 10px;
+  width: 80px
+}
+
 footer{
   background-color:rgba(0, 255, 242, 0.87);
-  color:rgb(5, 122, 69)
+  color:rgb(5, 122, 69);
+  padding: 25px 50px;
+}
+footer .social img {
+  padding-top: 15px;
 }
 
 .logo{
-  width: 80px;
-}
-.icon{
-  width: 25%;
-}
+  width: 80px; }
 #hero-img{
   width: 100%;
 }
@@ -69,6 +104,27 @@ footer p {
 }    
  
 footer p a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }    
-      
+footer{
+  margin-top: 200px;
+}
+.msg p {
+   padding-bottom: 15px;
+}
+.home-title{
+  margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+
+nav {
+  text-decoration: none;
+}
+.card-img {
+  border: 10px solid #734c19;
+}
+main section img {
+  box-sizing: border-box;
+}
